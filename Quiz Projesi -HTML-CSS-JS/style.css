@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#222837 ;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: #343e46;
+    padding: 20px;
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+    position: relative;
+}
+.container .header{
+   color:#fff;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   padding:10px;
+}
+.container .header .time,
+.container .header .title,
+.container .header .count{
+   font-size:16px;
+   font-weight: bold;
+   letter-spacing: 3px;
+}
+.container .timer{
+    position: absolute;
+    width: 560px;
+    height: 4px;
+    background-color: #222831;
+    top:10px;
+    border-radius:5px ;
+}
+.container .quiz-body{
+    width:100%;
+    color:#fff;
+}
+.container .quiz-body .question{
+    padding:20px;
+    width:100%;
+    border-radius: 5px;
+}
+.container .quiz-body .options{
+    height: 180px;
+}
+.container .quiz-body .options .option{
+    border:2px solid #222;
+    margin:10px 0px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.container .quiz-body .options .option:hover{
+    background-color: #222831;
+    margin-left: 5px;
+}
+.result{
+   background-color: #fff;
+   border-radius: 5px;
+   padding: 20px;
+   position: absolute;
+   z-index:99;
+   width:400px;
+   height:250px;
+}
+.result .result-header{
+    padding:10px;
+    text-align: center;
+    border-bottom:1px solid #000;
+    font-size:24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.result .result-starts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap:50px;
+    font-size:18px;
+}
+.result .again{
+    width:100px;
+    height: 40px;
+    background-color: #222831;
+    color:#fff;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin:0 auto;
+}
+.next-btn{
+    width:150px;
+    height: 40px;
+    background-color: #222831;
+    color:#fff;
+    text-align: center;
+    margin:20px auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.next-btn:hover{
+    background-color: #000;
+}
