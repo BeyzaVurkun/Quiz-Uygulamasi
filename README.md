@@ -2,9 +2,8 @@
 HTML, CSS ve JavaScript ile hazırlanmış interaktif bir quiz uygulamasıdır. Kullanıcı soruları cevaplayabilir, sonuçlarını görebilir ve testi tekrar başlatabilir.
 
 ## Özellikler
-- Başlangıçta uyarı mesajı:
 - Quiz başlamadan önce kullanıcıya bir uyarı mesajı gösterilir:
-- Dikkat! Boş soruları 2. kez boş bırakırsanız quiz bitecek. Başlamak için tıklayın. Kullanıcı mesajı tıklayarak quiz’e başlar.
+ Dikkat! Boş soruları 2. kez boş bırakırsanız quiz bitecek. Başlamak için tıklayın. Kullanıcı mesajı tıklayarak quiz’e başlar.
 
 # Seçeneklerle cevaplama:
 - Her soru 3 seçenek içerir. Kullanıcı bir seçeneğe tıkladığında:
