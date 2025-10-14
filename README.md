@@ -17,7 +17,7 @@ Kullanıcı soruları cevaplayabilir, sonuçlarını görebilir ve testi tekrar 
   - **1.5 saniye sonra otomatik olarak bir sonraki soruya geçilir.**
 
 ### Boş bırakma imkânı
-- Eğer kullanıcı soruyu boş bırakmak isterse, özel bir buton veya “Sonraki Soru” ile geçiş yapabilir.  
+- Eğer kullanıcı soruyu boş bırakmak isterse,“Sonraki Soru” ile geçiş yapabilir.  
 - Her soru maksimum 2 kez boş bırakılabilir.  
 - İkinci kez boş bırakılan sorular quiz sonunda sayılır.
 
