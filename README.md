@@ -10,7 +10,7 @@ HTML, CSS ve JavaScript ile hazırlanmış interaktif bir quiz uygulamasıdır. 
 - Doğru seçenek yeşil renkle vurgulanır.
 - Yanlış seçenek kırmızı renkle vurgulanır.
 - 1.5 saniye sonra otomatik olarak bir sonraki soruya geçilir.
-- 
+  
 # Boş bırakma imkânı:
 - Eğer kullanıcı soruyu boş bırakmak isterse, özel bir buton veya “Sonraki Soru” ile geçiş yapabilir.
 - Her soru maksimum 2 kez boş bırakılabilir.
