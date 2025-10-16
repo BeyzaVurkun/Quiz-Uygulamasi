@@ -36,6 +36,6 @@ Kullanıcı soruları cevaplayabilir, sonuçlarını görebilir ve testi tekrar 
 - Quiz bittiğinde kullanıcı **“Tekrar”** butonuna tıklayarak quiz’i baştan başlatabilir.
 
 ## Teknolojiler
-- HTML  
-- CSS  
+- HTML5
+- CSS3 
 - JavaScript
